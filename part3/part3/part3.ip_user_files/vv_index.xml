@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="c:/Users/Sigmachad/Vivado/project_2/ip/project_2.ip_user_files">
+	</Repository>
+	<IP>
+		<VLNV value="xilinx.com:user:apb_led_ctl_v1_0:1.0">
+		</VLNV>
+		<DisplayName value="apb_led_ctl_v1_0">
+		</DisplayName>
+		<Description value="APB LED Slave Module">
+		</Description>
+		<CoreRevision value="2">
+		</CoreRevision>
+		<ComponentPath value="apb/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="spartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+	</IP>
+	<IP>
+		<VLNV value="realdigital.org:realdigital:hdmi_tx:1.0">
+		</VLNV>
+		<DisplayName value="HDMI/DVI Encoder">
+		</DisplayName>
+		<Description value="HDMI/DVI Video Encoder">
+		</Description>
+		<CoreRevision value="2">
+		</CoreRevision>
+		<ComponentPath value="hdmi_tx_1.0/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="aartix7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="artix7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="artix7l">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="aspartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="azynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintex7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintex7l">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="spartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="zynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+		<UpgradesFrom>
+			<Upgrade value="user.org:user:hdmi_tx_v1_0:1.0">
+			</Upgrade>
+		</UpgradesFrom>
+		<LockPrevVersions value="false">
+		</LockPrevVersions>
+		<VendorDisplayName value="Real Digital">
+		</VendorDisplayName>
+		<VendorURL value="https://www.realdigital.org">
+		</VendorURL>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:myip_pong2:1.0">
+		</VLNV>
+		<DisplayName value="myip_pong2_v4_0">
+		</DisplayName>
+		<Description value="myip_pong2_v4_0">
+		</Description>
+		<CoreRevision value="2">
+		</CoreRevision>
+		<ComponentPath value="pong_v4/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="spartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+		<SubcoreVLNVs>
+			<SubcoreVLNV value="xilinx.com:ip:util_vector_logic:2.0">
+			</SubcoreVLNV>
+			<SubcoreVLNV value="xilinx.com:ip:clk_wiz:6.0">
+			</SubcoreVLNV>
+			<SubcoreVLNV value="realdigital.org:realdigital:hdmi_tx:1.0">
+			</SubcoreVLNV>
+		</SubcoreVLNVs>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+
